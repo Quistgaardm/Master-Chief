@@ -1,7 +1,7 @@
 # Master-Chief
 
-##Maddie Quistgaard
+Maddie Quistgaard
 
-###Inspiring forensics scientist 
+Inspiring forensics scientist 
 
 The 100, Gilmore Girls, Leverage

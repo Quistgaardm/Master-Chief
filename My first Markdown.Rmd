@@ -1,0 +1,40 @@
+---
+title: "My First Markdown"
+author: "Maddie Quistgaard"
+date: "June 2, 2017"
+output: html_document
+runtime: shiny
+---
+
+```{r setup, include=FALSE}
+numericInput("n", "How many cars?", 5)
+
+renderTable({head(cars, input$n)})
+
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+
+
+
+```{r, echo = FALSE}
+numericInput("n", "How many cars?", 5)
+
+renderTable({head(cars, input$n)})
+```
+
+## Including Plots
+
+You can also embed plots, for example
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+### More stuff
+
+got no idea what to 
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

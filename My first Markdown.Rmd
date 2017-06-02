@@ -25,6 +25,9 @@ numericInput("n", "How many cars?", 5)
 
 renderTable({head(cars, input$n)})
 ```
+**In the fell clutch of circumstance, I have not winced nor cried aloud. Under the bludgeonings of chance, my head is bloody, but unbowed.**
+- William Ernest Henley
+
 
 ## Including Plots
 
